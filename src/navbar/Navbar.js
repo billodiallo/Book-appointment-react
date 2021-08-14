@@ -23,30 +23,29 @@ import useStyles from './styles/animation';
 
 export const Navbar = () => (
 
-    <div>
-        <Toolbar className={styles.toolbar}>
-        <IconButton
-          color="inherit"
-          aria-label="open drawer"
-          onClick={handleDrawerOpen}
-          edge="start"
-          className={clsx(classes.menuButton, open && classes.hide)}
-          id={styles['toggle-icons']}
-        >
-          <MenuIcon className={styles['menu-icons']} />
-        </IconButton>
-      </Toolbar>
+  <div>
+    <Toolbar className={styles.toolbar}>
+      <IconButton
+        color="inherit"
+        aria-label="open drawer"
+        onClick={handleDrawerOpen}
+        edge="start"
+        className={clsx(classes.menuButton, open && classes.hide)}
+        id={styles['toggle-icons']}
+      >
+        <MenuIcon className={styles['menu-icons']} />
+      </IconButton>
+    </Toolbar>
 
-      <Drawer
-        className={classes.drawer}
-        variant="persistent"
-        anchor="left"
-        open={open}
-        classes={{
-          paper: classes.drawerPaper,
-        }}
-      ></Drawer>
-    </div>
-  
+    <Drawer
+      className={classes.drawer}
+      variant="persistent"
+      anchor="left"
+      open={open}
+      classes={{
+        paper: classes.drawerPaper,
+      }}
+    />
+  </div>
 
 );
