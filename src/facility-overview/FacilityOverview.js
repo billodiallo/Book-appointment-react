@@ -14,4 +14,8 @@ const FacilityOverview = ({ setFacility }) => {
     )
 }
 
+FacilityOverview.propTypes = {
+    setFacility: PropTypes.func.isRequired,
+  };
+  
 export default FacilityOverview;
