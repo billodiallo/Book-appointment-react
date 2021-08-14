@@ -22,6 +22,21 @@ import SignInPage from '../../pages/sign-in-page/SignInPage';
 import useStyles from './styles/animation';
 
 const Navbar = () => (
-  <div />
+
+    <div>
+        <Toolbar className={styles.toolbar}>
+        <IconButton
+          color="inherit"
+          aria-label="open drawer"
+          onClick={handleDrawerOpen}
+          edge="start"
+          className={clsx(classes.menuButton, open && classes.hide)}
+          id={styles['toggle-icons']}
+        >
+          <MenuIcon className={styles['menu-icons']} />
+        </IconButton>
+      </Toolbar>
+    </div>
+  
 
 );
