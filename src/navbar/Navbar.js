@@ -21,13 +21,7 @@ import FacilityShowPage from '../../pages/facility-Show-page/FacilityShowPage';
 import SignInPage from '../../pages/sign-in-page/SignInPage';
 import useStyles from './styles/animation';
 
-const Navbar = () => {
+const Navbar = () => (
+  <div />
 
-
-    return(
-        <div>
-            
-        </div>
-
-    ); 
-}
+);
