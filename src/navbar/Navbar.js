@@ -21,7 +21,7 @@ import FacilityShowPage from '../../pages/facility-Show-page/FacilityShowPage';
 import SignInPage from '../../pages/sign-in-page/SignInPage';
 import useStyles from './styles/animation';
 
-const Navbar = () => (
+export const Navbar = () => (
 
     <div>
         <Toolbar className={styles.toolbar}>
@@ -36,6 +36,16 @@ const Navbar = () => (
           <MenuIcon className={styles['menu-icons']} />
         </IconButton>
       </Toolbar>
+
+      <Drawer
+        className={classes.drawer}
+        variant="persistent"
+        anchor="left"
+        open={open}
+        classes={{
+          paper: classes.drawerPaper,
+        }}
+      ></Drawer>
     </div>
   
 
