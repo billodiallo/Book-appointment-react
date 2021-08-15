@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 import styles from './styles/facilityOverview.module.css';
 
 const FacilityOverview = ({ setFacility }) => {
-  const facilities = useSelector(state => state.facility.facilityCollection);
+  const facilities = useSelector((state) => state.facility.facilityCollection);
 
   return (
     <div className={styles.container}>
-      {facilities.map(facility => (
+      {facilities.map((facility) => (
         <div key={facility.id}>
-          <div className={styles['image-container']} style={{ position: 'relative', }}>
+          <div className={styles['image-container']} style={{ position: 'relative' }}>
             <h3 className={styles['image-title']}>{facility.name}</h3>
             <Link onClick={() => setFacility(facility)} to={`/facility/${facility.id}`}>
               <div className={styles['image-container']}>
@@ -22,9 +22,9 @@ const FacilityOverview = ({ setFacility }) => {
               <h4 className={styles.info}>{facility.brief_description}</h4>
             </Link>
             <div className={styles.icons}>
-              <FaFacebookF style={{ fill: '#d1cfd0', }} className={styles.icon} />
-              <FaTwitter style={{ fill: '#d1cfd0' ,}} className={styles.icon} />
-              <FaInstagram style={{ fill: '#d1cfd0', }} className={styles.icon} />
+              <FaFacebookF style={{ fill: '#d1cfd0' }} className={styles.icon} />
+              <FaTwitter style={{ fill: '#d1cfd0' }} className={styles.icon} />
+              <FaInstagram style={{ fill: '#d1cfd0' }} className={styles.icon} />
             </div>
           </div>
         </div>
