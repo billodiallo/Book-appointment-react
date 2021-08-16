@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-
 import styles from './styles/appointments.module.css';
 
 const AppointmentsTable = () => {
