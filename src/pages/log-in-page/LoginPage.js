@@ -1,3 +1,4 @@
+/* eslint-disable  react/no-array-index-key */
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Redirect } from 'react-router';

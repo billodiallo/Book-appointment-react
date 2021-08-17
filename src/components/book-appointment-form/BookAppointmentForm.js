@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import DatePickerComponent from '../date-picker/DatePickerComponent';
 import Dropdown from '../dropdown/Dropdown';
+import { bookAppointment } from '../../axios/requests';
 import styles from './styles/BookAppointmentForm.module.css';
 
 const BookAppointmentForm = ({ facilityId, facilityName }) => {
