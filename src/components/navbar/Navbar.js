@@ -59,7 +59,9 @@ export default function Navbar() {
         }}
       >
         <div className={classes.drawerHeader}>
-          <Link to="/"><h1>VACCINATION CENTER</h1></Link>
+          <Link to="/">
+            <h2>VACCINE CENTER</h2>
+          </Link>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
