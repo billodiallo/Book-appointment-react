@@ -4,10 +4,10 @@ import { useDispatch } from 'react-redux';
 import logIn from './redux/actions/userAction';
 import SignInPage from './pages/sign-in-page/SignInPage';
 import HomePage from './pages/home-page/HomePage';
-import AppointmentsPage from './pages/appointments-page/AppointmentsPage';
+import AppointmentsPage from './pages/appointments-page/AppointmentPage';
 import Navbar from './components/navbar/Navbar';
 import LogInPage from './pages/log-in-page/LogInPage';
-import FacilityShowPage from './pages/facility-Show-page/FacilityShowPage';
+import FacilityShowPage from './pages/facilityShow-page/FacilityShowPage';
 
 function App() {
   const dispatch = useDispatch();
