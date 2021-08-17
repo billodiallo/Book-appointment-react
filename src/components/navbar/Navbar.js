@@ -13,12 +13,12 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import { Link, NavLink } from 'react-router-dom';
 import styles from './styles/navbar.module.css';
-// import LogOut from '../log-out/LogOut';
+import LogOut from '../log-out/LogOut';
 import FacilityOverview from '../facility-overview/FacilityOverview';
-import AppointmentsPage from '../../pages/appointments-page/AppointmentsPage';
-// import LogInPage from '../../pages/log-in-page/LogInPage';
-import FacilityShowPage from '../../pages/facility-Show-page/FacilityShowPage';
-// import SignInPage from '../../pages/sign-in-page/SignInPage';
+import AppointmentsPage from '../../pages/appointments-page/AppointmentPage';
+import LogInPage from '../../pages/log-in-page/LogInPage';
+import FacilityShowPage from '../../pages/facilityShow-page/FacilityShowPage';
+import SignInPage from '../../pages/sign-in-page/SignInPage';
 import useStyles from './styles/animation';
 
 export default function Navbar() {

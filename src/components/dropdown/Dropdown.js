@@ -1,27 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-// eslint-disable-next-line import/extensions
-import StyledSelect from './styles/dropdown';
-import './styles/dropdown.css';
+import Select from 'react-dropdown-select';
+import styled from 'styled-components/macro';
 
-const Dropdown = ({ setCity }) => {
-  const onChange = (e) => {
-    setCity(e[0].value);
-  };
+const StyledSelect = styled(Select)`
+ color: white !important;
+    border: 1px solid white !important;
+    border-radius: 20px !important;
+    max-width: 180px;
+    min-width: 150px
+`;
 
-  return (
-    <div>
-      <StyledSelect style={{ textAlign: 'center', marginLeft: '20px' }} options={cities} onChange={(value) => onChange(value)} required placeholder="--Select City--" />
-    </div>
-  );
-};
-
-Dropdown.propTypes = {
-  setCity: PropTypes.func,
-};
-
-Dropdown.defaultProps = {
-  setCity: undefined,
-};
-
-export default Dropdown;
+export default StyledSelect;
