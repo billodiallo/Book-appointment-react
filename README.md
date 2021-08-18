@@ -1,15 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# REACT Redux BOOK  AN  APPOINTMENT APP
-### About
-A frontend application for bookstore CMS which is build by using React and Redux.
-
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-
-<p align="center">
-  <a href="https://github.com/billodiallo/Book-appointment-react/issues/2">
-    <p align="center"> <img src="https://d1bj9m7vro2dcz.cloudfront.net/mp_5478617_2019-05-14-11-46-13-000671.png" alt="React-logo" height="200" width="200"> </p>
-  </a>
 
   <h2 align="center">VACCINE CENTER</h2>
   <h3 align="center"> This project is the final assessment of the microverse module </h3>
@@ -21,14 +12,28 @@ A frontend application for bookstore CMS which is build by using React and Redux
   </p>
 </p>
 
-## Screenshot
+<!-- ## Screenshot
 <img src="./docs/screenshot1.JPG" width="40%" height="auto" /> </br>
 
-<img src="./docs/screenshoot2.JPG" width="40%" height="auto" />
+<img src="./docs/screenshoot2.JPG" width="40%" height="auto" /> -->
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Vaccine center  App is a React on Rails App. The App contains a list of categories of facilities where user can check the description of a particular facility and can book a free trial in there preferable time and location (city). Users can check all there appointments from the sidebar.
+The data is fetched from the Appointment App's Restful API and is retrieved through the redux store.
+
+## features
+
+### Here are some features where users can:-
+- Users can check all the appointments
+- Select categories from the sidebar and can navigate to different category page
+- Check the information about a facility on the facility page
+- Can book an appointment with preferable time and location
 
 ## Live Demo 
 
-[Clic here](https://bookstoreappbillo.herokuapp.com/)
+[Clic here]()
 ## Built With
 
 ## Milestones of the project.
@@ -67,7 +72,7 @@ To get this project up and running locally, you must follow the steps from the [
 
 **Step 1**<br>
 Navigate through the local folder where you want to clone the repository and run<br>
-git clone ` https://github.com/billodiallo/bookstore.git`. It will clone the repo to your local folder.<br>
+git clone ` https://github.com/billodiallo/Book-appointment-react.git`. It will clone the repo to your local folder.<br>
 
 **Step 2**<br>
 - Cd inside the project
