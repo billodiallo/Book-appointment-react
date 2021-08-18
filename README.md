@@ -34,10 +34,8 @@ The data is fetched from the Appointment App's Restful API and is retrieved thro
 ## Live Demo 
 
 [Clic here]()
-## Built With
-
-## Milestones of the project.
-
+## Backend link [Clic here](https://github.com/billodiallo/Book_an_appointment)
+## Backend link on heroku [Clic here](https://billo-appointment-app.herokuapp.com/)
 
 
 ## Built With
@@ -55,7 +53,10 @@ The data is fetched from the Appointment App's Restful API and is retrieved thro
 - Heroku
 - ESLint
 - StyleLint
-- [Recharts](https://github.com/recharts/recharts)
+- Axios
+- Material UI
+- React-icons
+- Redux-thunk
 - [react-icons](https://www.npmjs.com/package/react-icons)
 
 
