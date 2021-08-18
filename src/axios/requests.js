@@ -80,7 +80,7 @@ export const requestLogUserIn = async (dispatch, username, password, setErrors) 
   }
 };
 
-export const requestFacilityData = async (dispatch) => {
+export const requestFacilityData = async dispatch => {
   try {
     const response = await Axios.get(request.facilityData);
     if (response.status === 200) {

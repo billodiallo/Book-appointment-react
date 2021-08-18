@@ -8,8 +8,8 @@ import Button from '../../components/button/Button';
 import { requestSignUserIn } from '../../axios/requests';
 
 const SignInPage = () => {
-  const facility = useSelector((state) => state.facility.facilityCollection[4]);
-  const user = useSelector((state) => state.user.isLoggedIn);
+  const facility = useSelector(state => state.facility.facilityCollection[4]);
+  const user = useSelector(state => state.user.isLoggedIn);
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -22,7 +22,7 @@ const SignInPage = () => {
     imageUrl = facility.image_url;
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = event => {
     event.preventDefault();
 
     requestSignUserIn(dispatch, username, email, password, passwordConfirmation, setErrors);
@@ -54,7 +54,7 @@ const SignInPage = () => {
                   name="username"
                   placeholder="username"
                   value={username}
-                  handlerOnChange={(event) => setUsername(event.target.value)}
+                  handlerOnChange={event => setUsername(event.target.value)}
                 />
               </div>
               <div className={styles.input}>
@@ -63,7 +63,7 @@ const SignInPage = () => {
                   name="email"
                   placeholder="Email"
                   value={email}
-                  handlerOnChange={(event) => setEmail(event.target.value)}
+                  handlerOnChange={event => setEmail(event.target.value)}
                   required
                 />
               </div>
@@ -74,7 +74,7 @@ const SignInPage = () => {
                   name="password"
                   placeholder="Password"
                   value={password}
-                  handlerOnChange={(event) => setPassword(event.target.value)}
+                  handlerOnChange={event => setPassword(event.target.value)}
                   required
                 />
               </div>
@@ -84,7 +84,7 @@ const SignInPage = () => {
                   name="password_confirmation"
                   placeholder="Password confirmation"
                   value={passwordConfirmation}
-                  handlerOnChange={(event) => setPasswordConfirmation(event.target.value)}
+                  handlerOnChange={event => setPasswordConfirmation(event.target.value)}
                   required
                 />
               </div>

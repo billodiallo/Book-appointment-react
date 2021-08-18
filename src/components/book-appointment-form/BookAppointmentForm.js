@@ -8,7 +8,7 @@ import { bookAppointment } from '../../axios/requests';
 import styles from './styles/BookAppointmentForm.module.css';
 
 const BookAppointmentForm = ({ facilityId, facilityName }) => {
-  const username = useSelector((state) => state.user.currentUser);
+  const username = useSelector(state => state.user.currentUser);
   const [isActive, setIsActive] = useState(false);
   const [selectedDate, setSelectedDate] = useState(null);
   const [city, setCity] = useState('');
@@ -20,7 +20,7 @@ const BookAppointmentForm = ({ facilityId, facilityName }) => {
     dateToString = `${date.split(' ').slice(0, 5).join(' ')}`;
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = event => {
     event.preventDefault();
 
     const config = {

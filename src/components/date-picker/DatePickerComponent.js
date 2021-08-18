@@ -6,7 +6,7 @@ import './styles/datepicker.css';
 const DatePickerComponent = ({ selectedDate, setSelectedDate }) => (
   <ReactDatePicker
     selected={selectedDate}
-    onChange={(date) => setSelectedDate(date)}
+    onChange={date => setSelectedDate(date)}
     minDate={new Date()}
     placeholderText="Pick a date"
     isClearable

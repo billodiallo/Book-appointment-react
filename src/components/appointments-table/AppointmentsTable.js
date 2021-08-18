@@ -4,17 +4,17 @@ import { requestAppointments } from '../../axios/requests';
 import styles from './styles/appointments.module.css';
 
 const AppointmentsTable = () => {
-  const username = useSelector((state) => state.user.currentUser);
-  const appointments = useSelector((state) => state.appointment);
-  const facilities = useSelector((state) => state.facility.facilityCollection);
+  const username = useSelector(state => state.user.currentUser);
+  const appointments = useSelector(state => state.appointment);
+  const facilities = useSelector(state => state.facility.facilityCollection);
   const dispatch = useDispatch();
 
   useEffect(() => {
     requestAppointments(dispatch, username);
   }, []);
 
-  const facilityName = (id) => {
-    const facility = facilities.filter((facility) => facility.id === id);
+  const facilityName = id => {
+    const facility = facilities.filter(facility => facility.id === id);
     let facilityName;
 
     if (facility[0]) {
@@ -36,7 +36,7 @@ const AppointmentsTable = () => {
                 <h2 className={styles['date-title']}>DATE</h2>
               </div>
               <div className={styles['table-container']}>
-                {appointments.map((appointment) => (
+                {appointments.map(appointment => (
                   <div className={styles.table} key={appointment.id}>
                     <h3 className={styles.facility}>{facilityName(appointment.facility_id)}</h3>
                     <h3 className={styles.city}>{appointment.city}</h3>
