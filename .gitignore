@@ -10,7 +10,7 @@
 
 # production
 /build
-
+.estlintrc.json
 # misc
 .DS_Store
 .env.local
