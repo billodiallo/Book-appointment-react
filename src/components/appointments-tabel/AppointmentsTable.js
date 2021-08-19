@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { requestAppointments } from '../../axios/requests';
+import { requestAppointments } from '../../axios/request';
 import styles from './styles/appointments.module.css';
 
 const AppointmentsTable = () => {

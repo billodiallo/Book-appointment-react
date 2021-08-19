@@ -1,11 +1,12 @@
-/* eslint-disable  react/no-array-index-key */
+/* eslint-disable react/no-array-index-key */
+
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Redirect } from 'react-router';
-import styles from './styles/SignInPage.module.css';
+import styles from './styles/signInPage.module.css';
 import InputField from '../../components/input-field/InputField';
 import Button from '../../components/button/Button';
-import { requestSignUserIn } from '../../axios/requests';
+import { requestSignUserIn } from '../../axios/request';
 
 const SignInPage = () => {
   const facility = useSelector(state => state.facility.facilityCollection[4]);

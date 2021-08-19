@@ -2,10 +2,9 @@ import Axios from 'axios';
 import {
   fetchFacilitySuccess,
   fetchFacilityFailure,
-} from '../redux/actions/FacilityAction';
-
+} from '../redux/actions/facilityAction';
 import logIn from '../redux/actions/userAction';
-import fetchAppointments from '../redux/actions/AppointAction';
+import fetchAppointments from '../redux/actions/appointmentAction';
 
 const request = {
   logUserIn: 'https://billo-appointment-app.herokuapp.com/api/v1/login',
@@ -114,8 +113,7 @@ export const bookAppointment = async (facilityId, dateToString, city, username,
       }, 5000);
     }
   } catch (error) {
-    setFormSubmitMessage(`There was ${error.response.data.error} 
-    while booking the appointment. Try again after a while`);
+    setFormSubmitMessage(`There was ${error.response.data.error} while booking the appointment. Try again after a while`);
     setTimeout(() => {
       setFormSubmitMessage(null);
     }, 5000);

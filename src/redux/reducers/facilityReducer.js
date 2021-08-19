@@ -1,3 +1,6 @@
+/* eslint-disable  no-return-assign */
+/* eslint-disable  no-param-reassign */
+
 import {
   FETCH_FACILITY_REQUEST,
   FETCH_FACILITY_SUCCESS,

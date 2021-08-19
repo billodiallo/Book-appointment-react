@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import React, { useEffect } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
@@ -9,7 +8,7 @@ import HomePage from './pages/home-page/HomePage';
 import AppointmentsPage from './pages/appointments-page/AppointmentsPage';
 import Navbar from './components/navbar/Navbar';
 import LogInPage from './pages/log-in-page/LogInPage';
-import FacilityShowPage from './pages/facilityShow-page/FacilityShowPage';
+import FacilityShowPage from './pages/facility-Show-page/FacilityShowPage';
 
 function App() {
   const dispatch = useDispatch();

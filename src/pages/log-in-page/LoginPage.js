@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Redirect } from 'react-router';
-import { requestLogUserIn } from '../../axios/requests';
+import { requestLogUserIn } from '../../axios/request';
 import styles from './styles/login.module.css';
 import InputField from '../../components/input-field/InputField';
 import Button from '../../components/button/Button';

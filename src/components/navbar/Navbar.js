@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import { useTheme } from '@material-ui/core/styles';
@@ -16,9 +15,9 @@ import { Link, NavLink } from 'react-router-dom';
 import styles from './styles/navbar.module.css';
 import LogOut from '../log-out/LogOut';
 import FacilityOverview from '../facility-overview/FacilityOverview';
-import AppointmentsPage from '../../pages/appointments-page/AppointmentPage';
+import AppointmentsPage from '../../pages/appointments-page/AppointmentsPage';
 import LogInPage from '../../pages/log-in-page/LogInPage';
-import FacilityShowPage from '../../pages/facilityShow-page/FacilityShowPage';
+import FacilityShowPage from '../../pages/facility-Show-page/FacilityShowPage';
 import SignInPage from '../../pages/sign-in-page/SignInPage';
 import useStyles from './styles/animation';
 
@@ -60,9 +59,7 @@ export default function Navbar() {
         }}
       >
         <div className={classes.drawerHeader}>
-          <Link to="/">
-            <h2>VACCINE CENTER</h2>
-          </Link>
+          <Link to="/"><h1>VACCINE CENTER</h1></Link>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
