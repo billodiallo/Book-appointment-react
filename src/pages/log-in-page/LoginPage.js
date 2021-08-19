@@ -8,8 +8,8 @@ import InputField from '../../components/input-field/InputField';
 import Button from '../../components/button/Button';
 
 const LogInPage = () => {
-  const facility = useSelector(state => state.facility.facilityCollection[2]);
-  const user = useSelector(state => state.user.isLoggedIn);
+  const facility = useSelector((state) => state.facility.facilityCollection[2]);
+  const user = useSelector((state) => state.user.isLoggedIn);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState([]);
@@ -20,7 +20,7 @@ const LogInPage = () => {
     imageUrl = facility.image_url;
   }
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
     requestLogUserIn(dispatch, username, password, setErrors);
@@ -50,7 +50,7 @@ const LogInPage = () => {
                       name="username"
                       placeholder="username"
                       value={username}
-                      handlerOnChange={event => setUsername(event.target.value)}
+                      handlerOnChange={(event) => setUsername(event.target.value)}
                       required
                     />
                   </div>
@@ -60,7 +60,7 @@ const LogInPage = () => {
                       name="password"
                       placeholder="Password"
                       value={password}
-                      handlerOnChange={event => setPassword(event.target.value)}
+                      handlerOnChange={(event) => setPassword(event.target.value)}
                       required
                     />
                   </div>

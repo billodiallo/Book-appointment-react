@@ -16,7 +16,7 @@ import styles from './styles/navbar.module.css';
 import LogOut from '../log-out/LogOut';
 import FacilityOverview from '../facility-overview/FacilityOverview';
 import AppointmentsPage from '../../pages/appointments-page/AppointmentsPage';
-import LogInPage from '../../pages/log-in-page/LogInPage';
+import LogInPage from '../../pages/log-in-page/LoginPage';
 import FacilityShowPage from '../../pages/facility-Show-page/FacilityShowPage';
 import SignInPage from '../../pages/sign-in-page/SignInPage';
 import useStyles from './styles/animation';

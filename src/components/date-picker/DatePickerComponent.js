@@ -1,3 +1,4 @@
+/* eslint-disable no-sequences */
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDatePicker from 'react-datepicker';
@@ -6,7 +7,7 @@ import './styles/datepicker.css';
 const DatePickerComponent = ({ selectedDate, setSelectedDate }) => (
   <ReactDatePicker
     selected={selectedDate}
-    onChange={date => setSelectedDate(date)}
+    onChange={(date) => setSelectedDate(date)}
     minDate={new Date()}
     placeholderText="Pick a date"
     isClearable

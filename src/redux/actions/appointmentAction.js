@@ -1,6 +1,6 @@
 import { FETCH_APPOINTMENTS } from './actionType';
 
-const fetchAppointments = appointments => ({
+const fetchAppointments = (appointments) => ({
   type: FETCH_APPOINTMENTS,
   payload: appointments,
 });

@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 import { logOut } from '../../redux/actions/userAction';
 
 const LogOut = () => {
-  const isLoggedIn = useSelector(state => state.user.isLoggedIn);
+  const isLoggedIn = useSelector((state) => state.user.isLoggedIn);
   const dispatch = useDispatch();
 
   const handleLogOut = () => {

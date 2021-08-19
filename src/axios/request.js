@@ -2,7 +2,7 @@ import Axios from 'axios';
 import {
   fetchFacilitySuccess,
   fetchFacilityFailure,
-} from '../redux/actions/facilityAction';
+} from '../redux/actions/FacilityAction';
 import logIn from '../redux/actions/userAction';
 import fetchAppointments from '../redux/actions/appointmentAction';
 
@@ -79,7 +79,7 @@ export const requestLogUserIn = async (dispatch, username, password, setErrors) 
   }
 };
 
-export const requestFacilityData = async dispatch => {
+export const requestFacilityData = async (dispatch) => {
   try {
     const response = await Axios.get(request.facilityData);
     if (response.status === 200) {

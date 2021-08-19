@@ -6,7 +6,7 @@ import BookAppointmentForm from '../../components/book-appointment-form/BookAppo
 import styles from './styles/FacilityShowPage.module.css';
 
 const FacilityShowPage = ({ facilityData }) => {
-  const currentUser = useSelector(state => state.user.currentUser);
+  const currentUser = useSelector((state) => state.user.currentUser);
   let facility;
 
   if (facilityData) {

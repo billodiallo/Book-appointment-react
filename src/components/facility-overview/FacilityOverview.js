@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 import styles from './styles/facilityOverview.module.css';
 
 const FacilityOverview = ({ setFacility }) => {
-  const facilities = useSelector(state => state.facility.facilityCollection);
+  const facilities = useSelector((state) => state.facility.facilityCollection);
 
   return (
     <div className={styles.container}>
-      {facilities.map(facility => (
+      {facilities.map((facility) => (
         <div key={facility.id}>
           <div className={styles['image-container']} style={{ position: 'relative' }}>
             <h3 className={styles['image-title']}>{facility.name}</h3>
