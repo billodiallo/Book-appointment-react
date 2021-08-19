@@ -4,7 +4,6 @@
 
   <h2 align="center">VACCINE CENTER</h2>
   <h3 align="center"> This project is the final assessment of the microverse module </h3>
-
   <p align="center">
     <a href="https://github.com/billodiallo/Book-appointment-react.git">Report Bug</a>
     · 
