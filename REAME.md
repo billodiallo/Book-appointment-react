@@ -12,11 +12,6 @@
   </p>
 </p>
 
-<!-- ## Screenshot
-<img src="./docs/screenshot1.JPG" width="40%" height="auto" /> </br>
-
-<img src="./docs/screenshoot2.JPG" width="40%" height="auto" /> -->
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
