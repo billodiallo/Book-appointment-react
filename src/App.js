@@ -1,14 +1,13 @@
-/* eslint-disable import/extensions */
 import React, { useEffect } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import logIn from './redux/actions/userAction';
-import { requestFacilityData } from './axios/request';
+import { requestFacilityData } from './axios/requests';
 import SignInPage from './pages/sign-in-page/SignInPage';
-import HomePage from './pages/home-page/HomePage';
-import AppointmentsPage from './pages/appointments-page/AppointmentsPage';
+import HomePage from './pages/home-page/Homepage';
+import AppointmentsPage from './pages/appointments-page/AppointmentPage';
 import Navbar from './components/navbar/Navbar';
-import LogInPage from './pages/log-in-page/LogInPage';
+import LogInPage from './pages/log-in-page/LoginPage';
 import FacilityShowPage from './pages/facilityShow-page/FacilityShowPage';
 
 function App() {

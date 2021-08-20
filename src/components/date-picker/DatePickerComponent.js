@@ -12,7 +12,7 @@ const DatePickerComponent = ({ selectedDate, setSelectedDate }) => (
     isClearable
     showTimeSelect
     timeFormat="HH:mm"
-    minTime={(new Date(), 6)}
+    minTime={(new Date())}
     maxTime={new Date()}
     timeIntervals={15}
     dateFormat="Pp"
