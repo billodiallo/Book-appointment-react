@@ -23,6 +23,7 @@ function App() {
     }
 
     requestFacilityData(dispatch);
+    // eslint-disable-next-line
   }, []);
 
   return (

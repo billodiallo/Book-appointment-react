@@ -1615,6 +1615,11 @@
     "@nodelib/fs.scandir" "2.1.4"
     "fastq" "^1.6.0"
 
+"@react-hook/latest@^1.0.3":
+  "integrity" "sha512-dy6duzl+JnAZcDbNTfmaP3xHiKtbXYOaz3G51MGVljh548Y8MWzTr+PHLOfvpypEVW9zwvl+VyKjbWKEVbV1Rg=="
+  "resolved" "https://registry.npmjs.org/@react-hook/latest/-/latest-1.0.3.tgz"
+  "version" "1.0.3"
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   "integrity" "sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw=="
   "resolved" "https://registry.npmjs.org/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz"
@@ -5554,10 +5559,15 @@
     "has" "^1.0.3"
     "jsx-ast-utils" "^2.2.1"
 
-"eslint-plugin-react-hooks@^1.6.1", "eslint-plugin-react-hooks@^4 || ^3 || ^2.3.0 || ^1.7.0", "eslint-plugin-react-hooks@1.x || 2.x":
+"eslint-plugin-react-hooks@^1.6.1":
   "integrity" "sha512-iXTCFcOmlWvw4+TOE8CLWj6yX1GwzT0Y6cUfHHZqWnSk144VmVIRcVGtUAzrLES7C798lmvnt02C7rxaOX1HNA=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.7.0.tgz"
   "version" "1.7.0"
+
+"eslint-plugin-react-hooks@^4 || ^3 || ^2.3.0 || ^1.7.0", "eslint-plugin-react-hooks@^4.2.0", "eslint-plugin-react-hooks@1.x || 2.x":
+  "integrity" "sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz"
+  "version" "4.2.0"
 
 "eslint-plugin-react@^7.21.5", "eslint-plugin-react@^7.24.0", "eslint-plugin-react@7.x":
   "integrity" "sha512-KJJIx2SYx7PBx3ONe/mEeMz4YE0Lcr7feJTCMyyKb/341NcjuAgim3Acgan89GfPv7nxXK2+0slu0CWXYM4x+Q=="
@@ -5642,7 +5652,7 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz"
   "version" "2.1.0"
 
-"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0", "eslint@^3 || ^4 || ^5 || ^6", "eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "eslint@^5.0.0 || ^6.0.0", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5.16.0 || ^6.8.0 || ^7.2.0", "eslint@^6.6.0", "eslint@^6.8.0", "eslint@>= 4.12.1", "eslint@>=5", "eslint@>=6.1.0", "eslint@2.x - 6.x", "eslint@6.x":
+"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0", "eslint@^3 || ^4 || ^5 || ^6", "eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5.0.0 || ^6.0.0", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5.16.0 || ^6.8.0 || ^7.2.0", "eslint@^6.6.0", "eslint@^6.8.0", "eslint@>= 4.12.1", "eslint@>=5", "eslint@>=6.1.0", "eslint@2.x - 6.x", "eslint@6.x":
   "integrity" "sha512-K+Iayyo2LtyYhDSYwz5D5QdWw0hCacNzyq1Y821Xna2xSJj7cijoLLYmLxTQgcgZ9mC61nryMy9S7GRbYpI5Ig=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-6.8.0.tgz"
   "version" "6.8.0"
@@ -11065,7 +11075,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@*", "react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.5.x || ^16.x || ^17.x", "react@^16.0.0-0", "react@^16.13.1", "react@^16.14.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.9.0 || ^17", "react@>= 16.8.0", "react@>=0.14.0", "react@>=15", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8.6", "react@0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0", "react@0.14.x || ^15.0.0 || ^16.0.0 || ^17.0.0":
+"react@*", "react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.5.x || ^16.x || ^17.x", "react@^16.0.0-0", "react@^16.13.1", "react@^16.14.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.9.0 || ^17", "react@>= 16.8.0", "react@>=0.14.0", "react@>=15", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.6", "react@0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0", "react@0.14.x || ^15.0.0 || ^16.0.0 || ^17.0.0":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"

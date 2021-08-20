@@ -11,6 +11,7 @@ const AppointmentsTable = () => {
 
   useEffect(() => {
     requestAppointments(dispatch, username);
+    // eslint-disable-next-line
   }, []);
 
   const facilityName = id => {
