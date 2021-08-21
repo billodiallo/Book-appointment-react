@@ -11,4 +11,7 @@ describe('Action type', () => {
   it('LOG_OUT actionType should be a string', () => {
     expect(LOG_OUT).toEqual(expect.any(String));
   });
+  it('FETCH_APPOINTMENTS actionType should be a string', () => {
+    expect(FETCH_APPOINTMENTS).toEqual(expect.any(String));
+  });
 });
