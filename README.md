@@ -12,10 +12,7 @@
   </p>
 </p>
 
-<!-- ## Screenshot
-<img src="./docs/screenshot1.JPG" width="40%" height="auto" /> </br>
 
-<img src="./docs/screenshoot2.JPG" width="40%" height="auto" /> -->
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -33,7 +30,7 @@ The data is fetched from the Appointment App's Restful API and is retrieved thro
 
 ## Live Demo 
 
-[Clic here]()
+[Clic here](https://billo-final-capstone.netlify.app/)
 ## Backend link [Clic here](https://github.com/billodiallo/Book_an_appointment)
 ## Backend link on heroku [Clic here](https://billo-appointment-app.herokuapp.com/)
 
