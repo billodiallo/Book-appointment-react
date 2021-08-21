@@ -14,4 +14,7 @@ describe('Action type', () => {
   it('FETCH_APPOINTMENTS actionType should be a string', () => {
     expect(FETCH_APPOINTMENTS).toEqual(expect.any(String));
   });
+  it('FETCH_FACILITY_FAILURE actionType should be a string', () => {
+    expect(FETCH_FACILITY_FAILURE).toEqual(expect.any(String));
+  });
 });
