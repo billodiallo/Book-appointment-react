@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
-## Available Scripts
+  <h2 align="center">VACCINE CENTER</h2>
+  <h3 align="center"> This project is the final assessment of the microverse module </h3>
 
-In the project directory, you can run:
+  <p align="center">
+    <a href="https://github.com/billodiallo/Book-appointment-react.git">Report Bug</a>
+    · 
+    <a href="https://github.com/billodiallo/Book-appointment-react/issues/2">Request Feature</a>
+  </p>
+</p>
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `yarn test`
+Vaccine center  App is a React on Rails App. The App contains a list of categories of facilities where user can check the description of a particular facility and can book a free trial in there preferable time and location (city). Users can check all there appointments from the sidebar.
+The data is fetched from the Appointment App's Restful API and is retrieved through the redux store.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## features
 
-### `yarn build`
+### Here are some features where users can:-
+- Users can check all the appointments
+- Select categories from the sidebar and can navigate to different category page
+- Check the information about a facility on the facility page
+- Can book an appointment with preferable time and location
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## SCREENSHOT 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## App
+![front3](https://user-images.githubusercontent.com/11162987/131130915-9542ead9-2164-46e0-ac59-457b7750baae.JPG)
+![front4](https://user-images.githubusercontent.com/11162987/131130922-4bc70510-e069-4e04-8b79-4ac4a4a52f25.JPG)
+![front2](https://user-images.githubusercontent.com/11162987/131130924-21705efc-74e8-4006-bba9-1fc92e8b873d.JPG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# Unit  Test 
+![frontendtest](https://user-images.githubusercontent.com/11162987/131129414-8a7e9c45-0339-4793-a2c0-25b0869a7b97.JPG)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Unit Test Front end
+![test4](https://user-images.githubusercontent.com/11162987/131102277-7017ec0c-db51-44f7-acd3-22a915af771d.JPG)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Demo 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Clic here](https://billo-final-capstone.netlify.app/)
+## Backend link [Clic here](https://github.com/billodiallo/Book_an_appointment)
+## Backend link on heroku [Clic here](https://billo-appointment-app.herokuapp.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node.js]
+- [npm](https://www.npmjs.com/)
+- [ES6](http://es6-features.org/) 
+- [React](https://reactjs.org/)
+- [React-DOM](https://reactjs.org/docs/react-dom.html)
+- [create-react-app](https://github.com/facebook/create-react-app)
+- [React-Redux](https://github.com/reduxjs/react-redux)
+- [Redux](https://github.com/reduxjs/redux)
+- [PropTypes](https://www.npmjs.com/package/prop-types)
+- CSS
+- Heroku
+- ESLint
+- StyleLint
+- Axios
+- Material UI
+- React-icons
+- Redux-thunk
+- [react-icons](https://www.npmjs.com/package/react-icons)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Packages
+- [PropTypes](https://www.npmjs.com/package/prop-types)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Prerequisities
 
-### Analyzing the Bundle Size
+To get this project up and running locally, you must follow the steps from the [getting started section](#getting-started).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting Started
 
-### Making a Progressive Web App
+**To get this project set up on your local machine, follow these simple steps:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Step 1**<br>
+Navigate through the local folder where you want to clone the repository and run<br>
+git clone ` https://github.com/billodiallo/Book-appointment-react.git`. It will clone the repo to your local folder.<br>
 
-### Advanced Configuration
+**Step 2**<br>
+- Cd inside the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- run npm install
 
-### Deployment
+### Run project 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`` npm run start ``
 
-### `yarn build` fails to minify
+open ```localhost:3000``` in browser. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## 🤝 contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Author
+
+👤 Billo Dallio
+
+- GitHub: [@billodiallo](https://github.com/billodiallo)
+- Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
+- LinkedIn: [Billo Diallo](https://www.linkedin.com/in/mabillodiallo/)
+
+## 🙋‍♂ show your support
+
+give a ⭐️ if you like this project!
+
+## 📝 license
+
+
+
+This project is [MIT](LICENSE) licensed.
+
